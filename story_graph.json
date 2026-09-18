@@ -1,0 +1,1421 @@
+{
+  "version": 3,
+  "project": "足迹 footgame",
+  "chapter": "",
+  "title": "空白线路板（手动从零）",
+  "updatedAt": "2026-09-18T16:19:02.634069+08:00",
+  "notes": "2026-09-18 应业主要求新建空白板。\n上一版完整图已存：story_graph.ARCHIVE-before-blank-20260918-143533.json 以及 story_graph.PREVIOUS_WORK.json\n用法提醒：节点=走向/分叉草稿给AI看；类型与文案不钉死。\n2026-09-18 从 Windows 浏览器 Console 导出救回，未丢手改内容。\n2026-09-18 浏览器导出再同步",
+  "tracks": [
+    {
+      "id": "main",
+      "name": "主线",
+      "color": "#e6edf3"
+    },
+    {
+      "id": "side",
+      "name": "支线",
+      "color": "#7ee787"
+    }
+  ],
+  "characters": [
+    {
+      "id": "linlan",
+      "name": "林澜",
+      "color": "#6aa9ff"
+    },
+    {
+      "id": "tangzhi",
+      "name": "唐栀",
+      "color": "#ff8fab"
+    },
+    {
+      "id": "xuning",
+      "name": "许宁",
+      "color": "#c9a0ff"
+    },
+    {
+      "id": "zhoulan",
+      "name": "周岚",
+      "color": "#d2a8ff"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "N-MU6LI0D2",
+      "title": "起始节点",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "播放PPT动画",
+      "prerequisites": [],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 341.0851872944802,
+        "y": -1207.756591732007
+      }
+    },
+    {
+      "id": "N-MU6LIP2F0",
+      "title": "正式进入游戏",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "通过对话框概述现状，表明要去找工作，并且准备去鞋店应聘",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LI0D2",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 641.0851872944802,
+        "y": -1207.756591732007
+      }
+    },
+    {
+      "id": "N-MU6LLHF20",
+      "title": "到达鞋店，展示鞋店相关cg",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LIP2F0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 916.8350835921493,
+        "y": -1332.1160978978062
+      }
+    },
+    {
+      "id": "N-MU6LLZTA0",
+      "title": "接受林澜面试",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LLHF20",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 915.2632811400865,
+        "y": -1204.647604077862
+      }
+    },
+    {
+      "id": "N-MU6LN1O60",
+      "title": "正常接受面试，无分支选项",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LLZTA0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1170.4938589203987,
+        "y": -1204.025806547033
+      }
+    },
+    {
+      "id": "N-MU6LNW4E0",
+      "title": "正式试岗，开始服务客户",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "此处正式开始接入做店员的相关玩法\n比如接待客户，协助客户试鞋，取鞋，帮客户挑选鞋，给客户建议之类的。剧情设定需要在鞋店工作3天",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LN1O60",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1406.448713245012,
+        "y": -1349.5264287610178
+      }
+    },
+    {
+      "id": "N-MU6LPTKD0",
+      "title": "试岗结束，偷看林澜换下的鞋袜",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LNW4E0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1422.2872416561609,
+        "y": -1207.1347942011778
+      }
+    },
+    {
+      "id": "N-MU6LQXF20",
+      "title": "被林澜叫走去述职",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LPTKD0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1421.959034265756,
+        "y": -1090.8586559361556
+      }
+    },
+    {
+      "id": "N-MU6LRAEL0",
+      "title": "述职过程中被林澜发现主角偷瞄自己的脚，起了疑心",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LQXF20",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1676.5678145152392,
+        "y": -1349.5264287610178
+      }
+    },
+    {
+      "id": "N-MU6LRXVY0",
+      "title": "诱导主角说出自己的癖好",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LRAEL0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1676.2396071248343,
+        "y": -1205.8911991395196
+      }
+    },
+    {
+      "id": "N-MU6LSAUL0",
+      "title": "林澜想欺辱男主，让男主做自己的M，并且要求男主给自己舔脚",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LRXVY0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1684.6165651660353,
+        "y": -1087.7496682820106
+      }
+    },
+    {
+      "id": "N-MU6LU0K50",
+      "title": "男主承认林澜的脚很迷人，也确实心动",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "但是男主并不是m，喜欢脚不代表喜欢被凌辱",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LSAUL0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1942.9561306004928,
+        "y": -1347.6610361685307
+      }
+    },
+    {
+      "id": "N-MU6LUPF10",
+      "title": "男主果断拒绝，离开鞋店",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LU0K50",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1955.0638738266675,
+        "y": -1209.6219843244937
+      }
+    },
+    {
+      "id": "N-MU6LW1KL0",
+      "title": "男主回家后开始思考下一份工作",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "一时半会没有思路，索性打开丝语，逛论坛解压",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LUPF10",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1960.3318442137236,
+        "y": -1092.7240485286425
+      }
+    },
+    {
+      "id": "N-MU6LX8YC0",
+      "title": "男主在论坛发起给脚打分的帖子",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "吸引了很多用户投稿，此处缺失很多脚图，以及对应的系统，回头要安排做一个单独的小游戏，玩法很简单，玩家发帖后，第二天收到大量投稿，玩家第二天使用电脑时，可在电脑上选择开始评分，然后会播放大量脚图，每张图边上有评分选项，0-5分，5是满分。这里的评分结果会做为彩蛋，后续会在一些能看到脚的场景，看到这些脚的主人，并且触发支线，所以要记录好当玩家评价为5分的脚，或者评价分最高的脚是哪些，后续要用到这些图。",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LW1KL0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2213.6970294015487,
+        "y": -1352.0136188843337
+      }
+    },
+    {
+      "id": "N-MU6M33GS0",
+      "title": "和唐栀的账号在丝语上私信闲聊",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "主要聊的内容也是关于脚的，以及男主的评分标准和喜好\n此时男主并不知道唐栀的账号是女孩，以为只是一个普通的版主",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6LX8YC0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2226.1918907126696,
+        "y": -1209.9133779231636
+      }
+    },
+    {
+      "id": "N-MU6M42OK0",
+      "title": "指引玩家出去找个兼职",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "数值设计，前三天的鞋店的工资加上初始资金，很快会被消耗干净，这里也要穿插生活系统，每天固定吃饭要花钱，如果玩家要去其他娱乐，比如酒吧，健身房等会加速消耗资金，当玩家资金低于我们设置的值后就要强制触发咖啡店兼职的剧情。为了不让玩家从鞋店离职后不知道玩什么，可以依靠指引让玩家去健身，去吃饭，然后一天后提示玩家找工作，玩家可以在手机或者电脑上主动触发找工作的选项，一样会引导至兼职",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6M33GS0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2224.3665727021225,
+        "y": -1090.9457343277654
+      }
+    },
+    {
+      "id": "N-MU6M95GR0",
+      "title": "咖啡店兼职",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "日常玩一天兼职内容，处理点单，咖啡制作，出餐，第二天则上班则可以见到唐栀出场",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6M42OK0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2488.0153482701953,
+        "y": -1354.2167233953598
+      }
+    },
+    {
+      "id": "N-MU6N6EGO0",
+      "title": "看见唐栀进入咖啡店",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "给唐栀点单后，制作咖啡，给唐栀上咖啡的时候，刚好唐栀在打电话，提到了丝语的名字",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6M95GR0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2496.1040005592645,
+        "y": -1208.811825667651
+      }
+    },
+    {
+      "id": "N-MU6N825C0",
+      "title": "主角搭讪",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "主角直接搭讪说自己也逛丝语，并说了自己的id",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6N6EGO0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2493.1771302932043,
+        "y": -1088.74262981674
+      }
+    },
+    {
+      "id": "N-MU6N98O80",
+      "title": "唐栀脸红，没说话，咖啡也没喝就走了",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6N825C0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2774.450741949484,
+        "y": -1347.6074098622826
+      }
+    },
+    {
+      "id": "N-MU6N9WK00",
+      "title": "主角下班后在丝语上和唐栀账号私信说了今天的事",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "主要描述在线下看到了丝语的用户，还是可爱的女孩子",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6N98O80",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2772.625423938937,
+        "y": -1205.5071689011124
+      }
+    },
+    {
+      "id": "N-MU6NBOAW0",
+      "title": "唐栀账号在线，但是已读不回",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "男主感觉不正常，发问，不会这么巧吧",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6N9WK00",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2778.5109717169803,
+        "y": -1084.3364207946884
+      }
+    },
+    {
+      "id": "N-MU6NCBPR0",
+      "title": "唐栀承认咖啡店的就是自己",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "唐栀说自己线下很害羞。",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NBOAW0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3034.4488814964625,
+        "y": -1348.7089621177956
+      }
+    },
+    {
+      "id": "N-MU6ND58F0",
+      "title": "唐栀的账号出现问题，需要帮助，不好意思被维修人员知道自己是丝语的人，寻求男主帮助",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NCBPR0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3052.451504085148,
+        "y": -1201.1009598790608
+      }
+    },
+    {
+      "id": "N-MU6NDZWW0",
+      "title": "男主来到唐栀家，开启第一段大尺度剧情",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "仅玩脚剧情",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6ND58F0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3039.610663519471,
+        "y": -1081.0317640281496
+      }
+    },
+    {
+      "id": "N-MU6NEXON0",
+      "title": "男主回家后，第二天接到林澜电话",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "林澜态度强硬的要求回店，理由是多个顾客因为男主离职，选择不在店内消费，男主拒绝了，林澜约男主第二天见面聊，男主思考后同意",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NDZWW0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3316.4780661536993,
+        "y": -1348.7089621177956
+      }
+    },
+    {
+      "id": "N-MU6NHKSV0",
+      "title": "和唐栀私信聊天，挑逗唐栀",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NEXON0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3325.6682706982815,
+        "y": -1206.6087211566255
+      }
+    },
+    {
+      "id": "N-MU6NHZV30",
+      "title": "唐栀向男主发起邀约",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "触发第二次大尺度剧情，本次完全攻略唐栀",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NHKSV0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3329.350713965299,
+        "y": -1078.8286595171237
+      }
+    },
+    {
+      "id": "N-MU6NKV2M0",
+      "title": "赴约林澜",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "林澜依然强势，在林澜眼里男主就是一个卑微恋足佬。男主看到林澜的态度依然拒绝",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NHZV30",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3592.9994895333716,
+        "y": -1358.6229324174121
+      }
+    },
+    {
+      "id": "N-MU6NM2VQ0",
+      "title": "林澜接到店内电话，态度转变",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "电话说又有几个之前男主服务过的顾客因为男主离职选择离开。林澜着急，就说以后自己的脚随便看",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NKV2M0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3597.783485055902,
+        "y": -1209.9133779231643
+      }
+    },
+    {
+      "id": "N-MU6NN45A0",
+      "title": "男主决定戏弄林澜",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "男主告诉林澜，只看还不够，林澜问男主想要什么，男主告诉林澜脱鞋脱袜让自己把玩脚",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NM2VQ0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3602.5674805784324,
+        "y": -1082.1333162836625
+      }
+    },
+    {
+      "id": "N-MU6NO5R30",
+      "title": "林澜暴怒，但是电话又响起来了",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "林澜忍着气照做了，男主答应明天回店，林澜说可以，回去做副店长，必须把老客户拉回来，并且业绩要有保证",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NN45A0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3860.7084948689403,
+        "y": -1360.826036928438
+      }
+    },
+    {
+      "id": "N-MU6NPPOM0",
+      "title": "男主回到鞋店",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NO5R30",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3877.609565202113,
+        "y": -1214.319586945216
+      }
+    },
+    {
+      "id": "N-MU6NR0PQ0",
+      "title": "重新开始鞋店玩法",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "在原有玩法基础上，增加了给店员排班，业绩考核等管理类的玩法，这些玩法需要和业绩挂钩，同时业绩越高，男主工资越高。",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NPPOM0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3883.495112980156,
+        "y": -1067.8131369619941
+      }
+    },
+    {
+      "id": "N-MU6NSB8E0",
+      "title": "初识许宁",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "许宁首次来店，接受男主专业的服务以及后续的拍照，许宁很满意，两人留了联系方式",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NR0PQ0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3862.943406625888,
+        "y": -946.6423888555701
+      }
+    },
+    {
+      "id": "N-MU6NTJKL0",
+      "title": "林澜供货商危机",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "竞争对手崛起，品牌竞争力下降，客源变少了。\n林澜苦于自己的门店业绩，承受不小的压力。",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NSB8E0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4157.435645348323,
+        "y": -1371.8415594835674
+      }
+    },
+    {
+      "id": "N-MU6OCE830",
+      "title": "不予帮助",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "主角不在乎林澜死活，不帮助林澜度过危机，会导致关闭林澜的攻略开关。林澜无法被攻略",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NTJKL0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4415.255145264258,
+        "y": -1748.642945445411
+      }
+    },
+    {
+      "id": "N-MU6ODK3O1",
+      "title": "帮助林澜",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "解锁林澜攻略剧情\n提前引入角色叶澄\n此处修改一下人物关系，叶澄是男主的表姐",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6NTJKL0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4411.638473345344,
+        "y": -1390.4858857131092
+      }
+    },
+    {
+      "id": "N-MU6OJ8J70",
+      "title": "借助叶澄的高端手工定制产品重新赢回市场",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6ODK3O1",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4637.234189976717,
+        "y": -1551.4067776499076
+      }
+    },
+    {
+      "id": "N-MU6OJY6B0",
+      "title": "林澜门店获救感激男主",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "男主表示感谢要有诚意，半推半就下林澜和男主发生足交剧情",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6OJ8J70",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4885.324224835815,
+        "y": -1648.3053792462592
+      }
+    },
+    {
+      "id": "N-MU6OLGWZ0",
+      "title": "林澜升职，离开城市",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "林澜升职为大区经理，不在主线出现。\n如果是通过帮助林澜到达这个节点，则后期林澜会固定两个时间点回到门店，和男主推进口交剧情和性交剧情，如果是通过不予帮助到达本节点，则不会触发后续口交和性交",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6OJY6B0",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-MU6OM6560",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5199.166882206722,
+        "y": -1724.4399947862498
+      }
+    },
+    {
+      "id": "N-MU6OM6560",
+      "title": "林澜自救",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "不知道用了什么方法，林澜自救成功",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6OCE830",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4860.603047658786,
+        "y": -1855.9235400699433
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "N-MU6LI0D2__N-MU6LIP2F0",
+      "from": "N-MU6LI0D2",
+      "to": "N-MU6LIP2F0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6LIP2F0__N-MU6LLHF20",
+      "from": "N-MU6LIP2F0",
+      "to": "N-MU6LLHF20",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6LLHF20__N-MU6LLZTA0",
+      "from": "N-MU6LLHF20",
+      "to": "N-MU6LLZTA0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6LLZTA0__N-MU6LN1O60",
+      "from": "N-MU6LLZTA0",
+      "to": "N-MU6LN1O60",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6LN1O60__N-MU6LNW4E0",
+      "from": "N-MU6LN1O60",
+      "to": "N-MU6LNW4E0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6LNW4E0__N-MU6LPTKD0",
+      "from": "N-MU6LNW4E0",
+      "to": "N-MU6LPTKD0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6LPTKD0__N-MU6LQXF20",
+      "from": "N-MU6LPTKD0",
+      "to": "N-MU6LQXF20",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6LQXF20__N-MU6LRAEL0",
+      "from": "N-MU6LQXF20",
+      "to": "N-MU6LRAEL0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6LRAEL0__N-MU6LRXVY0",
+      "from": "N-MU6LRAEL0",
+      "to": "N-MU6LRXVY0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6LRXVY0__N-MU6LSAUL0",
+      "from": "N-MU6LRXVY0",
+      "to": "N-MU6LSAUL0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6LSAUL0__N-MU6LU0K50",
+      "from": "N-MU6LSAUL0",
+      "to": "N-MU6LU0K50",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6LU0K50__N-MU6LUPF10",
+      "from": "N-MU6LU0K50",
+      "to": "N-MU6LUPF10",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6LUPF10__N-MU6LW1KL0",
+      "from": "N-MU6LUPF10",
+      "to": "N-MU6LW1KL0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6LW1KL0__N-MU6LX8YC0",
+      "from": "N-MU6LW1KL0",
+      "to": "N-MU6LX8YC0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6LX8YC0__N-MU6M33GS0",
+      "from": "N-MU6LX8YC0",
+      "to": "N-MU6M33GS0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6M33GS0__N-MU6M42OK0",
+      "from": "N-MU6M33GS0",
+      "to": "N-MU6M42OK0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6M42OK0__N-MU6M95GR0",
+      "from": "N-MU6M42OK0",
+      "to": "N-MU6M95GR0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6M95GR0__N-MU6N6EGO0",
+      "from": "N-MU6M95GR0",
+      "to": "N-MU6N6EGO0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6N6EGO0__N-MU6N825C0",
+      "from": "N-MU6N6EGO0",
+      "to": "N-MU6N825C0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6N825C0__N-MU6N98O80",
+      "from": "N-MU6N825C0",
+      "to": "N-MU6N98O80",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6N98O80__N-MU6N9WK00",
+      "from": "N-MU6N98O80",
+      "to": "N-MU6N9WK00",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6N9WK00__N-MU6NBOAW0",
+      "from": "N-MU6N9WK00",
+      "to": "N-MU6NBOAW0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NBOAW0__N-MU6NCBPR0",
+      "from": "N-MU6NBOAW0",
+      "to": "N-MU6NCBPR0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NCBPR0__N-MU6ND58F0",
+      "from": "N-MU6NCBPR0",
+      "to": "N-MU6ND58F0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6ND58F0__N-MU6NDZWW0",
+      "from": "N-MU6ND58F0",
+      "to": "N-MU6NDZWW0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NDZWW0__N-MU6NEXON0",
+      "from": "N-MU6NDZWW0",
+      "to": "N-MU6NEXON0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NEXON0__N-MU6NHKSV0",
+      "from": "N-MU6NEXON0",
+      "to": "N-MU6NHKSV0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NHKSV0__N-MU6NHZV30",
+      "from": "N-MU6NHKSV0",
+      "to": "N-MU6NHZV30",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NHZV30__N-MU6NKV2M0",
+      "from": "N-MU6NHZV30",
+      "to": "N-MU6NKV2M0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NKV2M0__N-MU6NM2VQ0",
+      "from": "N-MU6NKV2M0",
+      "to": "N-MU6NM2VQ0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NM2VQ0__N-MU6NN45A0",
+      "from": "N-MU6NM2VQ0",
+      "to": "N-MU6NN45A0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NN45A0__N-MU6NO5R30",
+      "from": "N-MU6NN45A0",
+      "to": "N-MU6NO5R30",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NO5R30__N-MU6NPPOM0",
+      "from": "N-MU6NO5R30",
+      "to": "N-MU6NPPOM0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NPPOM0__N-MU6NR0PQ0",
+      "from": "N-MU6NPPOM0",
+      "to": "N-MU6NR0PQ0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NR0PQ0__N-MU6NSB8E0",
+      "from": "N-MU6NR0PQ0",
+      "to": "N-MU6NSB8E0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NSB8E0__N-MU6NTJKL0",
+      "from": "N-MU6NSB8E0",
+      "to": "N-MU6NTJKL0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NTJKL0__N-MU6OCE830",
+      "from": "N-MU6NTJKL0",
+      "to": "N-MU6OCE830",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6NTJKL0__N-MU6ODK3O1",
+      "from": "N-MU6NTJKL0",
+      "to": "N-MU6ODK3O1",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6ODK3O1__N-MU6OJ8J70",
+      "from": "N-MU6ODK3O1",
+      "to": "N-MU6OJ8J70",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6OJ8J70__N-MU6OJY6B0",
+      "from": "N-MU6OJ8J70",
+      "to": "N-MU6OJY6B0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6OJY6B0__N-MU6OLGWZ0",
+      "from": "N-MU6OJY6B0",
+      "to": "N-MU6OLGWZ0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6OCE830__N-MU6OM6560",
+      "from": "N-MU6OCE830",
+      "to": "N-MU6OM6560",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6OM6560__N-MU6OLGWZ0",
+      "from": "N-MU6OM6560",
+      "to": "N-MU6OLGWZ0",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    }
+  ]
+}

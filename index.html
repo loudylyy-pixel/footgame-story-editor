@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>足迹 · 剧情线路板</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <h1 id="title">剧情线路板</h1>
+      <span class="meta" id="meta"></span>
+      <span class="meta" id="dirty">已保存</span>
+      <div class="filters" id="filters" title="只决定画布上显示什么，不是在选剧情"></div>
+      <button id="btn-add">新建节点</button>
+      <button id="btn-reload">重新加载</button>
+      <button id="btn-save" class="primary">保存</button>
+    </header>
+    <div class="main">
+      <div class="canvas-wrap">
+        <canvas id="canvas"></canvas>
+        <div class="hint">拖空白平移 · 滚轮缩放 · 拖节点 · 点「＋」选「新建节点」或「连接已有节点（汇合）」 · Esc 取消 · ⌘/Ctrl+S 保存</div>
+      </div>
+      <aside class="sidebar" id="sidebar-body">
+        <div class="empty">加载中…</div>
+      </aside>
+    </div>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

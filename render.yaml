@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: footgame-story-editor
+    runtime: python
+    plan: free
+    buildCommand: "true"
+    startCommand: python server.py
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+      - key: GITHUB_REPO
+        value: loudylyy-pixel/footgame-story-editor
+      - key: GITHUB_BRANCH
+        value: main
+      - key: GRAPH_PATH
+        value: story_graph.json
+      - key: GITHUB_TOKEN
+        sync: false
