@@ -3,8 +3,8 @@
   "project": "足迹 footgame",
   "chapter": "",
   "title": "空白线路板（手动从零）",
-  "updatedAt": "2026-09-18T16:19:02.634069+08:00",
-  "notes": "2026-09-18 应业主要求新建空白板。\n上一版完整图已存：story_graph.ARCHIVE-before-blank-20260918-143533.json 以及 story_graph.PREVIOUS_WORK.json\n用法提醒：节点=走向/分叉草稿给AI看；类型与文案不钉死。\n2026-09-18 从 Windows 浏览器 Console 导出救回，未丢手改内容。\n2026-09-18 浏览器导出再同步",
+  "updatedAt": "2026-09-20T14:31:12.818303+08:00",
+  "notes": "2026-09-18 应业主要求新建空白板。\n上一版完整图已存：story_graph.ARCHIVE-before-blank-20260918-143533.json 以及 story_graph.PREVIOUS_WORK.json\n用法提醒：节点=走向/分叉草稿给AI看；类型与文案不钉死。\n2026-09-18 从 Windows 浏览器 Console 导出救回，未丢手改内容。\n2026-09-18 浏览器导出再同步\n2026-09-20：在「许宁看到了这个情况有点打退堂鼓」后接入旧版许宁入驻焦虑四向线（来自 PREVIOUS_WORK），汇合至正式入驻丝语。",
   "tracks": [
     {
       "id": "main",
@@ -939,7 +939,7 @@
     {
       "id": "N-MU6OLGWZ0",
       "title": "林澜升职，离开城市",
-      "kind": "beat",
+      "kind": "choice",
       "track": "main",
       "character": null,
       "summary": "林澜升职为大区经理，不在主线出现。\n如果是通过帮助林澜到达这个节点，则后期林澜会固定两个时间点回到门店，和男主推进口交剧情和性交剧情，如果是通过不予帮助到达本节点，则不会触发后续口交和性交",
@@ -983,6 +983,1118 @@
       "position": {
         "x": 4860.603047658786,
         "y": -1855.9235400699433
+      }
+    },
+    {
+      "id": "N-MU98KEOK0",
+      "title": "男主成为鞋店的店长—叶澄选择线",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "需要前期通过介绍叶澄来帮助林澜触发该路线继续鞋店玩法，核心由接待转为管理，主要是排班，做活动等。",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6OLGWZ0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4796.740055433781,
+        "y": -1289.9216920766125
+      }
+    },
+    {
+      "id": "N-MU98OC631",
+      "title": "男主成为店长-未帮助林澜",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "正常做为鞋店店长，保持鞋店玩法，核心转为管理方向，收益低于帮助林澜的选择",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU6OLGWZ0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4796.740055433781,
+        "y": -1139.2654928056875
+      }
+    },
+    {
+      "id": "N-MU98S19E0",
+      "title": "许宁成为常客",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "在此阶段开始经常和许宁有交集",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU98KEOK0",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-MU98OC631",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5222.030608975824,
+        "y": -1408.5478544728016
+      }
+    },
+    {
+      "id": "N-MU98TMOY0",
+      "title": "许宁的接单量开始下滑，和男主表露担忧",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU98S19E0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5215.799081943225,
+        "y": -1265.3460612561184
+      }
+    },
+    {
+      "id": "N-MU98UKS20",
+      "title": "唐栀和男主表达论坛近期访问量下滑严重",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "同类网站增多，很多用户喜新厌旧去了新网站\n男主表达当前的站点更多是普通人的个人分享，以及一些网络上流行的图，丝语的核心竞争力体现不出来",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU98TMOY0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5218.379972954729,
+        "y": -1134.2613428500777
+      }
+    },
+    {
+      "id": "N-MU98XXLD0",
+      "title": "男主推荐让专业的足模入驻，类似请明星代言的效果",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "男主推荐了许宁",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU98UKS20",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5508.466002655113,
+        "y": -1408.5478544728012
+      }
+    },
+    {
+      "id": "N-MU98YXIO0",
+      "title": "唐栀没有确认同意，男主说他先问问许宁的意思",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU98XXLD0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5528.671729754824,
+        "y": -1262.0414044895795
+      }
+    },
+    {
+      "id": "N-MU990H8O0",
+      "title": "男主电话联系许宁表达这层意思",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU98YXIO0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5527.947963999789,
+        "y": -1128.7535815725128
+      }
+    },
+    {
+      "id": "N-MU9915C90",
+      "title": "许宁不了解这个圈层，但是现阶段没工作，表示可以先试试，然后聊了收益",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU990H8O0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5791.880051293792,
+        "y": -1856.982821285814
+      }
+    },
+    {
+      "id": "N-MU991RBK0",
+      "title": "男主帮助许宁分析了流量收益分成，以及未来可以带来的潜在收益",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "许宁说可以试试",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9915C90",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5787.805439279007,
+        "y": -1427.9204853140316
+      }
+    },
+    {
+      "id": "N-MU993H8G0",
+      "title": "男主和唐栀确认了许宁入住的计划",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "两人在论坛发布和许宁相关的内容预热\n许宁在这个圈子里的人气很高，大家都很期待能和真正的足模互动",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU991RBK0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5800.520223019639,
+        "y": -1256.2955509253188
+      }
+    },
+    {
+      "id": "N-MU996K6G0",
+      "title": "许宁看到了这个情况有点打退堂鼓",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "之前做足模仅仅是产品展示，现在是赤裸裸的暴露自己的脚给众人品鉴或者满足欲望，内心不太能接受",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU993H8G0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5809.504029925734,
+        "y": -1110.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B01",
+      "title": "男主和唐栀商量",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "唐栀会去和许宁沟通，这个选项会让许宁认为男主有分寸，会加速对许宁的攻略",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU996K6G0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 6189.504029925734,
+        "y": -1210.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B00",
+      "title": "男主单独约许宁",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "许宁认为和男主还不太熟，有点介意单独相处，但是还是来了，但是会导致攻略许宁的路线加长",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU996K6G0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 6189.504029925734,
+        "y": -1490.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B18",
+      "title": "和周岚沟通，并触发多个选项",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B02",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 6526.233178137908,
+        "y": -1110.4904901504913
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B16",
+      "title": "唐栀假借生气，拉男主上床",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "唐栀表面生气，实则把男主按住：把你榨干，你就不会胡思乱想了。直接拉进第二次上床（与二约床戏同一场图集A）。",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B14",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]\n[2026-09-20 标题澄清：保留调戏→假生气→上床，未删线]",
+      "position": {
+        "x": 7270.956462750717,
+        "y": -951.5717681038569
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B23",
+      "title": "和周岚聊完后，话题回到许宁，周岚确认会帮忙和许宁沟通",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B22",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B21",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 7709.504029925734,
+        "y": -930.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B15",
+      "title": "唐栀表示心安",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B13",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 7269.504029925734,
+        "y": -1370.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B09",
+      "title": "许宁表示自己尽快克服自己的顾虑",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B07",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B06",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 7329.504029925734,
+        "y": -1530.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B04",
+      "title": "男主和许宁在公园见面",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "男主询问许宁顾虑，许宁没有直接回答，反问男主为什么在丝语，是不是也恋足",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B00",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 6569.504029925734,
+        "y": -1530.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B08",
+      "title": "男主调戏许宁",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "男主让许宁坐下，告诉许宁关于脚的美妙，让许宁脱下鞋，放在自己的手上，一点点的去评价许宁的脚",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B05",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 7329.504029925734,
+        "y": -1530.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B20",
+      "title": "询问周岚和许宁的关系",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "可触发关于周岚的更多选项",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B18",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 6949.504029925734,
+        "y": -930.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B13",
+      "title": "男主说没有",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "只喜欢唐栀的脚",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B12",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 6909.504029925734,
+        "y": -1370.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B02",
+      "title": "男主寻求周岚的帮助",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "许宁会很快打消疑虑，并且会加速提升男主和周岚的关系推进，为后期同时攻略周岚和许宁打下基础",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU996K6G0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 6189.504029925734,
+        "y": -930.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B25",
+      "title": "唐栀·第二次上床（图集A·假生气线）",
+      "kind": "beat",
+      "track": "side",
+      "character": "tangzhi",
+      "summary": "承接「调戏唐栀→假借生气」：图集A+骚话（已交付）。与二约「留下」同一场床戏资源。结束后唐栀让男主先回家，自己去和许宁沟通。",
+      "prerequisites": [],
+      "scriptRef": "GALLERY_BED_A",
+      "flagsSet": [],
+      "notes": "2026-09-18: 嗔怒线改接本节点，删除占位「唐栀床戏」。\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]\n[2026-09-20 标题澄清：保留调戏→假生气→上床，未删线]",
+      "position": {
+        "x": 7641.123492525589,
+        "y": -1125.863707101678
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B11",
+      "title": "许宁离开",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B09",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B10",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 7709.504029925734,
+        "y": -1490.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B22",
+      "title": "更多的了解周岚",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "解锁周岚的攻略条件",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B20",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 7272.553455247299,
+        "y": -1174.0550816225596
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B24",
+      "title": "许宁考虑清楚后，正式入驻丝语",
+      "kind": "gate",
+      "track": "main",
+      "character": null,
+      "summary": "焦虑四线汇合后的正式投入/入驻落地。条件仍由她定；此时仍非完整恋爱深度。【取代旧旁支 XN-SILK 条件门；店访→限范围→拒野帖→周岚引丝 旧链已删并入 C03 店拍摘要】",
+      "prerequisites": [],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n2026-09-18: 删除重复旧链 XN-STORE/LIMIT/REFUSE/ZL-GUIDE/XN-SILK；本节点为正式入驻汇合。\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 8232.574457219158,
+        "y": -1058.9369453708848
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B05",
+      "title": "男主如实回答",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "男主承认自己恋足，许宁欣赏男主的诚实，然后询问男主自己入驻后，会被丝语的用户们打上什么样的标签，会不会被人在背后嚼舌根",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B04",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 6949.504029925734,
+        "y": -1490.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B06",
+      "title": "男主说只是一份工作",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "男主欺骗许宁，许宁不太相信，但是没有戳破，但是会导致许宁不信任男主，无法再攻略许宁",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B04",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 6949.504029925734,
+        "y": -1490.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B07",
+      "title": "男主为了安抚许宁，说了一些比较场面的话",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "男主会说这就是一种正常的性癖，不会有什么标签，也不会对生活有影响，该选项不会打消许宁的顾虑",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B05",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 7329.504029925734,
+        "y": -1530.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B17",
+      "title": "唐栀让男主先回家，自己会和许宁沟通",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n2026-09-18: 入口可为「床戏后」或「心安后」；前置改由连线表达。\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 7953.193209301188,
+        "y": -1253.6777957000807
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B12",
+      "title": "唐栀表示她会想办法，然后询问男主是不是看上许宁的脚了",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B01",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 6549.504029925734,
+        "y": -990.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B10",
+      "title": "许宁有点接受不了，害羞，脸红",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B08",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 7709.504029925734,
+        "y": -1490.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B14",
+      "title": "男主调戏唐栀（承认看上许宁的脚）",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "男主说对啊，第一眼就看上许宁的嫩脚了，光是想想就有感觉。",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B12",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]\n[2026-09-20 标题澄清：保留调戏→假生气→上床，未删线]",
+      "position": {
+        "x": 6909.504029925734,
+        "y": -990.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B21",
+      "title": "陈述许宁的问题，拜托周岚劝说",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B20",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B19",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 7313.449693433975,
+        "y": -807.9506128190951
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B03",
+      "title": "不予理会，让许宁自己考虑",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "许宁最终还是会决定入驻丝语，但是会认为男主不重视自己的想法，导致许宁永远无法攻略",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU996K6G0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 6189.504029925734,
+        "y": -650.7874543783666
+      }
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B19",
+      "title": "询问许宁的情况",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "了解更多关于许宁的信息，可加速攻略许宁",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B18",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "\n[2026-09-20 自 PREVIOUS_WORK 许宁入驻焦虑线接在「打退堂鼓」后]",
+      "position": {
+        "x": 6949.504029925734,
+        "y": -930.7874543783666
+      }
+    },
+    {
+      "id": "N-MU9FJG6G0",
+      "title": "许宁，周岚，男主在男主的鞋店拍照",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-XNAC1A0BCDBF93B24",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 8517.30160735985,
+        "y": -1259.0112785278184
+      }
+    },
+    {
+      "id": "N-MU9FJVEG0",
+      "title": "许宁去洗手间，男主和周岚在办公室选照片",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "只有之前选择联系周岚去劝许宁才会有这个剧情选项，否则没有这个选项",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9FJG6G0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 8803.556042486473,
+        "y": -1362.866657571112
+      }
+    },
+    {
+      "id": "N-MU9FKRUG1",
+      "title": "男主许宁周岚坐在男主鞋店的办公室选照片",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "由选项「选项B」进入",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9FJG6G0",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-MU9FQL3R0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 8812.71975240206,
+        "y": -1198.5753929791188
+      }
+    },
+    {
+      "id": "N-MU9FLKHR0",
+      "title": "和周岚的互动",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "周岚说站了太久脚很酸\n男主让周岚脱了鞋去沙发上躺一会",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9FJVEG0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 9103.556042486473,
+        "y": -1362.866657571112
+      }
+    },
+    {
+      "id": "N-MU9FMQ9J0",
+      "title": "男主盯着周岚的脚，被周岚看见，周岚脸红",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9FLKHR0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 9385.228622655304,
+        "y": -1485.049456445575
+      }
+    },
+    {
+      "id": "N-MU9FN3KG0",
+      "title": "男主承认自己再看周岚的脚，并说周岚的脚不比许宁的差，甚至更好看",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9FMQ9J0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 9685.228622655304,
+        "y": -1485.049456445575
+      }
+    },
+    {
+      "id": "N-MU9FNRLL0",
+      "title": "男主提出给周岚也拍几张照片",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9FN3KG0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 9400.27847304381,
+        "y": -1343.0119527540116
+      }
+    },
+    {
+      "id": "N-MU9FO2I80",
+      "title": "周岚脸红，但是还是拒绝了",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9FNRLL0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 9686.532908170433,
+        "y": -1338.4300977962193
+      }
+    },
+    {
+      "id": "N-MU9FOFS00",
+      "title": "男主说周岚是不是怀疑自己的摄影技术",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9FO2I80",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 9981.95105321264,
+        "y": -1480.467601487783
+      }
+    },
+    {
+      "id": "N-MU9FP3YW0",
+      "title": "周岚慌忙表示没有，是自己不好意思",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9FOFS00",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 9978.021341012414,
+        "y": -1329.2663878806347
+      }
+    },
+    {
+      "id": "N-MU9FPJO00",
+      "title": "男主帮周岚把鞋穿好，并没有说什么",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9FP3YW0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 10252.057496251591,
+        "y": -1478.9403165018523
+      }
+    },
+    {
+      "id": "N-MU9FQL3R0",
+      "title": "周岚看到男主收手，反而有点失落，但还是顺着男主穿上鞋，刚好许宁上厕所回来了",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9FPJO00",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 10266.455203882533,
+        "y": -1330.7936728665654
       }
     }
   ],
@@ -1411,6 +2523,606 @@
       "id": "N-MU6OM6560__N-MU6OLGWZ0",
       "from": "N-MU6OM6560",
       "to": "N-MU6OLGWZ0",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6OLGWZ0__N-MU98KEOK0",
+      "from": "N-MU6OLGWZ0",
+      "to": "N-MU98KEOK0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU6OLGWZ0__N-MU98OC631",
+      "from": "N-MU6OLGWZ0",
+      "to": "N-MU98OC631",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU98KEOK0__N-MU98S19E0",
+      "from": "N-MU98KEOK0",
+      "to": "N-MU98S19E0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU98OC631__N-MU98S19E0",
+      "from": "N-MU98OC631",
+      "to": "N-MU98S19E0",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU98S19E0__N-MU98TMOY0",
+      "from": "N-MU98S19E0",
+      "to": "N-MU98TMOY0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU98TMOY0__N-MU98UKS20",
+      "from": "N-MU98TMOY0",
+      "to": "N-MU98UKS20",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU98UKS20__N-MU98XXLD0",
+      "from": "N-MU98UKS20",
+      "to": "N-MU98XXLD0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU98XXLD0__N-MU98YXIO0",
+      "from": "N-MU98XXLD0",
+      "to": "N-MU98YXIO0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU98YXIO0__N-MU990H8O0",
+      "from": "N-MU98YXIO0",
+      "to": "N-MU990H8O0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU990H8O0__N-MU9915C90",
+      "from": "N-MU990H8O0",
+      "to": "N-MU9915C90",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9915C90__N-MU991RBK0",
+      "from": "N-MU9915C90",
+      "to": "N-MU991RBK0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU991RBK0__N-MU993H8G0",
+      "from": "N-MU991RBK0",
+      "to": "N-MU993H8G0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU993H8G0__N-MU996K6G0",
+      "from": "N-MU993H8G0",
+      "to": "N-MU996K6G0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B01",
+      "from": "N-MU996K6G0",
+      "to": "N-XNAC1A0BCDBF93B00",
+      "label": "选项A·单独约许宁",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B02",
+      "from": "N-MU996K6G0",
+      "to": "N-XNAC1A0BCDBF93B01",
+      "label": "选项B·和唐栀商量",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B03",
+      "from": "N-MU996K6G0",
+      "to": "N-XNAC1A0BCDBF93B02",
+      "label": "选项C·找周岚帮忙",
+      "choiceId": "C",
+      "createsSubRoute": true,
+      "subRouteId": "opt-C",
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B04",
+      "from": "N-MU996K6G0",
+      "to": "N-XNAC1A0BCDBF93B03",
+      "label": "选项D·让她自己考虑",
+      "choiceId": "D",
+      "createsSubRoute": true,
+      "subRouteId": "opt-D",
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B05",
+      "from": "N-XNAC1A0BCDBF93B00",
+      "to": "N-XNAC1A0BCDBF93B04",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B06",
+      "from": "N-XNAC1A0BCDBF93B04",
+      "to": "N-XNAC1A0BCDBF93B05",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B07",
+      "from": "N-XNAC1A0BCDBF93B04",
+      "to": "N-XNAC1A0BCDBF93B06",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B08",
+      "from": "N-XNAC1A0BCDBF93B05",
+      "to": "N-XNAC1A0BCDBF93B07",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B09",
+      "from": "N-XNAC1A0BCDBF93B05",
+      "to": "N-XNAC1A0BCDBF93B08",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B10",
+      "from": "N-XNAC1A0BCDBF93B07",
+      "to": "N-XNAC1A0BCDBF93B09",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B11",
+      "from": "N-XNAC1A0BCDBF93B08",
+      "to": "N-XNAC1A0BCDBF93B10",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B12",
+      "from": "N-XNAC1A0BCDBF93B09",
+      "to": "N-XNAC1A0BCDBF93B11",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B13",
+      "from": "N-XNAC1A0BCDBF93B10",
+      "to": "N-XNAC1A0BCDBF93B11",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B14",
+      "from": "N-XNAC1A0BCDBF93B06",
+      "to": "N-XNAC1A0BCDBF93B09",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B15",
+      "from": "N-XNAC1A0BCDBF93B01",
+      "to": "N-XNAC1A0BCDBF93B12",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B16",
+      "from": "N-XNAC1A0BCDBF93B12",
+      "to": "N-XNAC1A0BCDBF93B13",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B17",
+      "from": "N-XNAC1A0BCDBF93B12",
+      "to": "N-XNAC1A0BCDBF93B14",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B18",
+      "from": "N-XNAC1A0BCDBF93B13",
+      "to": "N-XNAC1A0BCDBF93B15",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B19",
+      "from": "N-XNAC1A0BCDBF93B14",
+      "to": "N-XNAC1A0BCDBF93B16",
+      "label": "继续·假生气拉上床",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B20",
+      "from": "N-XNAC1A0BCDBF93B15",
+      "to": "N-XNAC1A0BCDBF93B17",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B21",
+      "from": "N-XNAC1A0BCDBF93B16",
+      "to": "N-XNAC1A0BCDBF93B25",
+      "label": "继续·开床戏",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B22",
+      "from": "N-XNAC1A0BCDBF93B25",
+      "to": "N-XNAC1A0BCDBF93B17",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B23",
+      "from": "N-XNAC1A0BCDBF93B02",
+      "to": "N-XNAC1A0BCDBF93B18",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B24",
+      "from": "N-XNAC1A0BCDBF93B18",
+      "to": "N-XNAC1A0BCDBF93B19",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B25",
+      "from": "N-XNAC1A0BCDBF93B18",
+      "to": "N-XNAC1A0BCDBF93B20",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B26",
+      "from": "N-XNAC1A0BCDBF93B20",
+      "to": "N-XNAC1A0BCDBF93B21",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B27",
+      "from": "N-XNAC1A0BCDBF93B20",
+      "to": "N-XNAC1A0BCDBF93B22",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B28",
+      "from": "N-XNAC1A0BCDBF93B19",
+      "to": "N-XNAC1A0BCDBF93B21",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B29",
+      "from": "N-XNAC1A0BCDBF93B22",
+      "to": "N-XNAC1A0BCDBF93B23",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B30",
+      "from": "N-XNAC1A0BCDBF93B21",
+      "to": "N-XNAC1A0BCDBF93B23",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B31",
+      "from": "N-XNAC1A0BCDBF93B17",
+      "to": "N-XNAC1A0BCDBF93B24",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B32",
+      "from": "N-XNAC1A0BCDBF93B23",
+      "to": "N-XNAC1A0BCDBF93B24",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B33",
+      "from": "N-XNAC1A0BCDBF93B03",
+      "to": "N-XNAC1A0BCDBF93B24",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "E-XNAC1A0BCDBF93B34",
+      "from": "N-XNAC1A0BCDBF93B11",
+      "to": "N-XNAC1A0BCDBF93B24",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-XNAC1A0BCDBF93B24__N-MU9FJG6G0",
+      "from": "N-XNAC1A0BCDBF93B24",
+      "to": "N-MU9FJG6G0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9FJG6G0__N-MU9FJVEG0",
+      "from": "N-MU9FJG6G0",
+      "to": "N-MU9FJVEG0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9FJG6G0__N-MU9FKRUG1",
+      "from": "N-MU9FJG6G0",
+      "to": "N-MU9FKRUG1",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9FJVEG0__N-MU9FLKHR0",
+      "from": "N-MU9FJVEG0",
+      "to": "N-MU9FLKHR0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9FLKHR0__N-MU9FMQ9J0",
+      "from": "N-MU9FLKHR0",
+      "to": "N-MU9FMQ9J0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9FMQ9J0__N-MU9FN3KG0",
+      "from": "N-MU9FMQ9J0",
+      "to": "N-MU9FN3KG0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9FN3KG0__N-MU9FNRLL0",
+      "from": "N-MU9FN3KG0",
+      "to": "N-MU9FNRLL0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9FNRLL0__N-MU9FO2I80",
+      "from": "N-MU9FNRLL0",
+      "to": "N-MU9FO2I80",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9FO2I80__N-MU9FOFS00",
+      "from": "N-MU9FO2I80",
+      "to": "N-MU9FOFS00",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9FOFS00__N-MU9FP3YW0",
+      "from": "N-MU9FOFS00",
+      "to": "N-MU9FP3YW0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9FP3YW0__N-MU9FPJO00",
+      "from": "N-MU9FP3YW0",
+      "to": "N-MU9FPJO00",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9FPJO00__N-MU9FQL3R0",
+      "from": "N-MU9FPJO00",
+      "to": "N-MU9FQL3R0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9FQL3R0__N-MU9FKRUG1",
+      "from": "N-MU9FQL3R0",
+      "to": "N-MU9FKRUG1",
       "label": "汇合",
       "choiceId": null,
       "createsSubRoute": false,
