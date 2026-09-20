@@ -94,7 +94,7 @@ async function loadGraph() {
   renderSidebar();
 }
 
-async function saveGraph() {
+async function saveGraph({ quiet = false } = {}) {
   const res = await fetch("/api/graph", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -104,7 +104,16 @@ async function saveGraph() {
   if (!res.ok || !data.ok) throw new Error(data.error || "保存失败");
   state.graph.updatedAt = data.updatedAt;
   setDirty(false);
-  toast("已保存");
+  toast(quiet ? "已自动保存" : "已保存");
+}
+
+/** 串行自动保存，避免连点新建时请求打架 */
+let _saveChain = Promise.resolve();
+function autosaveAfterNodeCreate() {
+  _saveChain = _saveChain
+    .then(() => saveGraph({ quiet: true }))
+    .catch((e) => toast(String(e), true));
+  return _saveChain;
 }
 
 function renderFilters() {
@@ -444,6 +453,7 @@ function addNextNode(fromNode, opts = {}) {
   draw();
   renderSidebar();
   toast(asChoice ? `已加选项分支「${label}」` : "已接上下一段");
+  autosaveAfterNodeCreate();
 }
 
 function addChoiceBranch(fromNode) {
@@ -673,6 +683,7 @@ function addNode() {
   });
   state.selectedId = id; state.selectedEdgeId = null;
   setDirty(); draw(); renderSidebar();
+  autosaveAfterNodeCreate();
 }
 
 canvas.addEventListener("mousedown", (ev) => {
