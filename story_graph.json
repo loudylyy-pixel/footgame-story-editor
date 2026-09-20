@@ -3,7 +3,7 @@
   "project": "足迹 footgame",
   "chapter": "",
   "title": "空白线路板（手动从零）",
-  "updatedAt": "2026-09-20T15:28:18.773220+08:00",
+  "updatedAt": "2026-09-20T16:39:01.342780+08:00",
   "notes": "2026-09-18 应业主要求新建空白板。\n上一版完整图已存：story_graph.ARCHIVE-before-blank-20260918-143533.json 以及 story_graph.PREVIOUS_WORK.json\n用法提醒：节点=走向/分叉草稿给AI看；类型与文案不钉死。\n2026-09-18 从 Windows 浏览器 Console 导出救回，未丢手改内容。\n2026-09-18 浏览器导出再同步\n2026-09-20：在「许宁看到了这个情况有点打退堂鼓」后接入旧版许宁入驻焦虑四向线（来自 PREVIOUS_WORK），汇合至正式入驻丝语。",
   "tracks": [
     {
@@ -2898,6 +2898,1828 @@
         "x": 3191.843752238342,
         "y": -73.21341767595088
       }
+    },
+    {
+      "id": "N-MU9IH1050",
+      "title": "苏琪再次找男主对峙，质问男主为什么不闭店",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9HTDBL0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3490.05062529392,
+        "y": -354.7343479502096
+      }
+    },
+    {
+      "id": "N-MU9IHJMD0",
+      "title": "男主说当时只是考虑，并没有答应闭店",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IH1050",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3501.357187241973,
+        "y": -82.17905239806106
+      }
+    },
+    {
+      "id": "N-MU9IHTW40",
+      "title": "苏琪没有吵闹，转身离开开始准备报复男主",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IHJMD0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3794.1846794642847,
+        "y": -370.8724904500079
+      }
+    },
+    {
+      "id": "N-MU9II46D0",
+      "title": "媒体开始以男主是恋足，并且是丝语的管理员为角度开始宣传，说男主在鞋店就是为了合理的意淫女顾客",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IHTW40",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3800.111860579072,
+        "y": -73.21341767595088
+      }
+    },
+    {
+      "id": "N-MU9IJBJ00",
+      "title": "同时有很多小号评论说自己被男主服务的时候就感觉很不舒服",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9II46D0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4114.456876134448,
+        "y": -365.4931096167418
+      }
+    },
+    {
+      "id": "N-MU9IK42D0",
+      "title": "鞋店总公司迫于舆论压力，撤职男主",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IJBJ00",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4095.2802800273266,
+        "y": -67.83403684268478
+      }
+    },
+    {
+      "id": "N-MU9IKHDW0",
+      "title": "林澜被总公司派遣回来任命一个新店长",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IK42D0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4434.729072804611,
+        "y": -363.6999826723198
+      }
+    },
+    {
+      "id": "N-MU9IKY0S0",
+      "title": "林澜看望男主",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "如果之前解锁则触发口交剧情并走这条路线",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IKHDW0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4399.4143341976915,
+        "y": -73.21341767595091
+      }
+    },
+    {
+      "id": "N-MU9ILAWS1",
+      "title": "林澜看望男主",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "如果之前没有解锁口交剧情则走此线路",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IKHDW0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4709.625295582702,
+        "y": -344.1150915599535
+      }
+    },
+    {
+      "id": "N-MU9IMIZ10",
+      "title": "林澜告诉男主苏琪的背景，让男主别再去招惹她",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IKY0S0",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-MU9ILAWS1",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4699.4143341976915,
+        "y": -73.21341767595091
+      }
+    },
+    {
+      "id": "N-MU9INGBG0",
+      "title": "林澜任命代理店长后返回总公司",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IMIZ10",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4999.4143341976915,
+        "y": -349.35496711694356
+      }
+    },
+    {
+      "id": "N-MU9INUCD0",
+      "title": "男主失去工作",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "所有鞋店玩法关闭",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9INGBG0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5014.307150034589,
+        "y": -73.21341767595095
+      }
+    },
+    {
+      "id": "N-MU9IO8GS0",
+      "title": "男主来到唐栀家里，了解丝语现状",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9INUCD0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5307.1346422569,
+        "y": -379.83812517211805
+      }
+    },
+    {
+      "id": "N-MU9IOJZN0",
+      "title": "丝语受到舆论风波，也有了流量影响，都不太好过",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IO8GS0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5298.716807816311,
+        "y": -60.6615290649967
+      }
+    },
+    {
+      "id": "N-MU9IP51G0",
+      "title": "男主有些记恨苏琪",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IOJZN0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5609.475569482844,
+        "y": -376.251871283274
+      }
+    },
+    {
+      "id": "N-MU9IPFLO0",
+      "title": "男主，唐栀，许宁，周岚一起开会商讨后续发展",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IP51G0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5593.885227264566,
+        "y": -58.86840212057469
+      }
+    },
+    {
+      "id": "N-MU9IPZB70",
+      "title": "男主询问许宁足模工作流",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IPFLO0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5911.816496708787,
+        "y": -560.9439465587432
+      }
+    },
+    {
+      "id": "N-MU9IQEKK0",
+      "title": "众人决定尝试利用周岚和许宁过去的资源尝试做一个足模工作室",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IPZB70",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5898.019281434932,
+        "y": -46.31651350962054
+      }
+    },
+    {
+      "id": "N-MU9IRBJO0",
+      "title": "林澜给男主打电话",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "问了一下男主后续安排\n男主说了足模工作室的想法",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IQEKK0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 350.63231567469234,
+        "y": 375.0683184295565
+      }
+    },
+    {
+      "id": "N-MU9ISHE30",
+      "title": "林澜推了自己的同学陈可欣来帮助男主",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IRBJO0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 352.9732429006354,
+        "y": 522.104727872163
+      }
+    },
+    {
+      "id": "N-MU9ITKJG0",
+      "title": "陈可欣是业内优秀的造型师和广告创意总监",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "她的很多艺术理念和广告资源都是非常优秀的",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9ISHE30",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 353.5210431821563,
+        "y": 665.5548834259255
+      }
+    },
+    {
+      "id": "N-MU9IUB780",
+      "title": "男主正式结识陈可欣，并约定见面",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9ITKJG0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 662.4866779042663,
+        "y": 387.6202070405108
+      }
+    },
+    {
+      "id": "N-MU9IUX9O0",
+      "title": "男主和陈可欣聊了很多创意相关的内容，但都是纸面上的东西",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IUB780",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 666.6207320746313,
+        "y": 538.2428703719613
+      }
+    },
+    {
+      "id": "N-MU9IWET80",
+      "title": "男主希望可以再实际工作中得到陈可欣的指导",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IUX9O0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 686.8929287447946,
+        "y": 670.9342642591914
+      }
+    },
+    {
+      "id": "N-MU9IXET60",
+      "title": "陈可欣同意并且离开",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "如果没攻略林澜则走这条线",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IWET80",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-MU9IZMVF1",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1517.6585042937156,
+        "y": 416.31023815126315
+      }
+    },
+    {
+      "id": "N-MU9IXUYJ1",
+      "title": "陈可欣调侃男主，需不需要我亲自示范",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "如果攻略林澜则走这条线",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IWET80",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 958.2028976340422,
+        "y": 726.3816942599983
+      }
+    },
+    {
+      "id": "N-MU9IYS900",
+      "title": "男主说好啊",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "陈可欣表示知道林澜和男主的关系，对男主的这种轻浮很失望\n永久无法攻略陈可欣",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IXUYJ1",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1233.0991204121337,
+        "y": 559.6208884287495
+      }
+    },
+    {
+      "id": "N-MU9IZMVF1",
+      "title": "男主正经回答自己确实很需要她的帮助",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "解锁陈可欣的可攻略状态",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IXUYJ1",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1234.8922473565558,
+        "y": 685.0002692620156
+      }
+    },
+    {
+      "id": "N-MU9J0X9M0",
+      "title": "众人来到叶澄的工作室，这里有简单的摄影棚可用",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9IXET60",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1817.6585042937156,
+        "y": 416.31023815126315
+      }
+    },
+    {
+      "id": "N-MU9J1K5P0",
+      "title": "叶澄知道男主的癖好，调侃男主这是要开后宫了",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9J0X9M0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1545.6510090230884,
+        "y": 579.4847900936678
+      }
+    },
+    {
+      "id": "N-MU9J2BZV0",
+      "title": "男主一时语塞",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9J1K5P0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1569.5094595820956,
+        "y": 733.6937073139624
+      }
+    },
+    {
+      "id": "N-MU9J2MOK0",
+      "title": "叶澄询问男主这么多姑娘，最喜欢谁",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9J2BZV0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1892.8201098595819,
+        "y": 586.6572978713559
+      }
+    },
+    {
+      "id": "N-MU9J2YII0",
+      "title": "唐栀",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "大幅增加与唐栀的好感度\n解锁后期多人邀约里唐栀的可邀请状态",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9J2MOK0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2185.6476020818936,
+        "y": 382.2408262072445
+      }
+    },
+    {
+      "id": "N-MU9J33IJ1",
+      "title": "许宁",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "大幅增加许宁的好感度\n解锁后期多人邀约里许宁的可邀请状态",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9J2MOK0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2183.854475137472,
+        "y": 498.65457231840037
+      }
+    },
+    {
+      "id": "N-MU9J3ARE2",
+      "title": "周岚",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "大幅增加周岚的好感度\n解锁后期多人邀约里周岚的可邀请状态",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9J2MOK0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2185.6476020818936,
+        "y": 611.9005803695404
+      }
+    },
+    {
+      "id": "N-MU9J3TD63",
+      "title": "陈可欣",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "唐栀，周岚，许宁，陈可欣对男主的好感度下降",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9J2MOK0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2187.4407290263157,
+        "y": 724.4490620393002
+      }
+    },
+    {
+      "id": "N-MU9J46VV4",
+      "title": "叶澄",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "调侃喜欢自己的姐姐，无事发生",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9J2MOK0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2191.02698291516,
+        "y": 845.1465884206802
+      }
+    },
+    {
+      "id": "N-MU9J8IEY0",
+      "title": "拍摄过程展示",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9J2YII0",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-MU9J33IJ1",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-MU9J3ARE2",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-MU9J3TD63",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-MU9J46VV4",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2587.8558379139495,
+        "y": 549.0016320384934
+      }
+    },
+    {
+      "id": "N-MU9J91HM0",
+      "title": "陈可欣带着作品离开，周岚，唐栀正式从各自的职业转成工作室足模",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9J8IEY0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2574.058622640094,
+        "y": 746.2455959249166
+      }
+    },
+    {
+      "id": "N-MU9JA5B60",
+      "title": "陈可欣回电话，带着一个顾问回来。方晚晴入场",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9J91HM0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2900.9555268064246,
+        "y": 357.13704898533615
+      }
+    },
+    {
+      "id": "N-MU9JBOJE0",
+      "title": "新情节",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JA5B60",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3200.9555268064246,
+        "y": 357.13704898533615
+      }
+    },
+    {
+      "id": "N-MU9JBU1U0",
+      "title": "方晚晴看中了唐栀，许宁，周岚三人风格迥异却都是各自风格里的佼佼者",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JBOJE0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2928.948031535797,
+        "y": 755.2112306470268
+      }
+    },
+    {
+      "id": "N-MU9JCW1E0",
+      "title": "方晚晴建议男主不要走传统足模接商单路线，转而做自媒体，做直播，让三人做网红出道",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JBU1U0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3528.400231254276,
+        "y": 380.44769926282254
+      }
+    },
+    {
+      "id": "N-MU9JDJXD0",
+      "title": "方晚晴说的很直接，做足模工作室是非常没有前途的一件事，只有直播能救男主",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "并且方晚晴愿意投资男主，但是必须由方晚晴直接管理这个账号",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JCW1E0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3301.2209095941994,
+        "y": 785.6943887022013
+      }
+    },
+    {
+      "id": "N-MU9JEEQQ0",
+      "title": "男主接受投资",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "解锁女S性格的方晚晴攻略状态，后期面对方晚晴基本都是被踩脸舔脚的剧情",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JDJXD0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3615.5659251495754,
+        "y": 640.4511062040169
+      }
+    },
+    {
+      "id": "N-MU9JGN2P1",
+      "title": "接受建议但是拒绝投资",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "解锁正常可攻略的方晚晴\n以平等的身份和方晚晴发生大尺度交互",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JDJXD0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3601.2209095941994,
+        "y": 905.6943887022013
+      }
+    },
+    {
+      "id": "N-MU9JHIQY0",
+      "title": "男主很快得到了崭新的工作室，开始做自媒体筹备",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JEEQQ0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4096.671746536201,
+        "y": 360.7233028741802
+      }
+    },
+    {
+      "id": "N-MU9JIGIH0",
+      "title": "和众人一起探讨作品内容，展示角度",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JHIQY0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4405.637381258311,
+        "y": 360.7233028741802
+      }
+    },
+    {
+      "id": "N-MU9JIU8Q0",
+      "title": "众人讨论出最满意的作品后交给方晚晴评估",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JIGIH0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4705.637381258311,
+        "y": 360.7233028741802
+      }
+    },
+    {
+      "id": "N-MU9JJ9FU0",
+      "title": "方晚晴不喜欢这个作品直接否掉",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JIU8Q0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4107.280782102874,
+        "y": 502.3803314835206
+      }
+    },
+    {
+      "id": "N-MU9JJJU90",
+      "title": "众人很失落，认为自己没有办法按照自己的思路去发展，和男主抱怨",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JJ9FU0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4401.901401269608,
+        "y": 545.4153781496493
+      }
+    },
+    {
+      "id": "N-MU9JK8XK0",
+      "title": "男主也很纠结，去恳求方晚晴",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JJJU90",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4714.453289880562,
+        "y": 505.96658537236465
+      }
+    },
+    {
+      "id": "N-MU9JKIZS0",
+      "title": "方晚晴说自己就喜欢帅气的男孩子在自己面前低声下气的样子",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JK8XK0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5048.5227018245805,
+        "y": 360.72330287418026
+      }
+    },
+    {
+      "id": "N-MU9JL60O0",
+      "title": "男主沉默，接受了事实",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "此处开始展示方晚晴女S属性特性，播放踩脸等cg剧情",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JKIZS0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5040.104867383991,
+        "y": 540.0359973163833
+      }
+    },
+    {
+      "id": "N-MU9JLZKP0",
+      "title": "结束后方晚晴发布了众人挑选的作品，数据还不错",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JL60O0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5415.416199049716,
+        "y": 357.1370489853362
+      }
+    },
+    {
+      "id": "N-MU9JMLYQ0",
+      "title": "开始忙碌的拍摄和运用工作",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JLZKP0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5408.791491553548,
+        "y": 538.2428703719612
+      }
+    },
+    {
+      "id": "N-MU9JN1BL0",
+      "title": "工作室准备开始扩张，开始招募新主播",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JMLYQ0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5767.284944529795,
+        "y": 655.6049222053615
+      }
+    },
+    {
+      "id": "N-MU9JNLW90",
+      "title": "方晚晴接受男主的态度，不投资，改为提供场地和资源，占20%股份，只参与分红，不参与管理",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JGN2P1",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3901.2209095941994,
+        "y": 905.6943887022013
+      }
+    },
+    {
+      "id": "N-MU9JP7GF0",
+      "title": "入住工作室",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JNLW90",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4210.128035632149,
+        "y": 807.7160022847693
+      }
+    },
+    {
+      "id": "N-MU9JPL2G0",
+      "title": "众人努力拍摄作品，宣发，运营",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JP7GF0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4534.622632236507,
+        "y": 807.7160022847693
+      }
+    },
+    {
+      "id": "N-MU9JPVI10",
+      "title": "成绩非常好，唐栀，许宁，周岚都有各自的受众，粉丝数量暴增",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JPL2G0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 4813.46820789638,
+        "y": 766.520544359258
+      }
+    },
+    {
+      "id": "N-MU9JQCQP0",
+      "title": "工作室开始准备扩张，招募新人",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JPVI10",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 5783.729442251995,
+        "y": 892.3336996452788
+      }
+    },
+    {
+      "id": "N-MU9JQOWP0",
+      "title": "男主开始负责人员的面试和统筹，陈可欣负责作品脚本设计，拍摄",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "正式开启自媒体运营玩法，细节要包括发作品，买量，看数据，接商单，总结数据好与不好的原因做调整。\n发作品玩法是通过多个选项来确定作品数据，选择参演成员，拍摄角度，曲目风格，人物着装选择等。这里要做的是一个比较详细且复杂的系统，需要有一套随时变化的内置逻辑，比如观众喜好变化，包括喜欢某个角色，喜欢某种风格衣服，曲风，拍摄运镜处理，擦边程度都要有一套内置演算和发展逻辑。",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JQCQP0",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-MU9JN1BL0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 6143.2215421055325,
+        "y": 654.084131359105
+      }
+    },
+    {
+      "id": "N-MU9JRXH50",
+      "title": "面试陆青禾",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JQOWP0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 6431.6349669160645,
+        "y": 480.28550351709237
+      }
+    },
+    {
+      "id": "N-MU9JT5HL0",
+      "title": "结合陆青禾的舞者特征，安排她做为辅助角色，开始做配角",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JRXH50",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 6464.316125044778,
+        "y": 634.2214310343035
+      }
+    },
+    {
+      "id": "N-MU9JTTDB0",
+      "title": "陆青禾很努力，但是目前资源优先，无法倾斜给她更多",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JT5HL0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 6393.545718981818,
+        "y": 778.2260083891139
+      }
+    },
+    {
+      "id": "N-MU9JUIHR0",
+      "title": "陆青禾决定走歪路，魅惑男主",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JTTDB0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 6455.193315084201,
+        "y": 899.0574353649893
+      }
+    },
+    {
+      "id": "N-MU9JUU340",
+      "title": "男主接受陆青禾的色诱",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "直接播放和陆青禾的大尺度cg\n许宁好感度下降\n周岚好感度下降\n陈可欣好感度下降",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JUIHR0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 6773.400790381936,
+        "y": 486.90640362535953
+      }
+    },
+    {
+      "id": "N-MU9JXS7Z0",
+      "title": "陆青禾开独立账号运营",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JUU340",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-MU9K5O4O0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 7268.717343575816,
+        "y": 620.9796308177691
+      }
+    },
+    {
+      "id": "N-MU9K3B1A1",
+      "title": "男主拒绝",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JUIHR0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 6775.056015409003,
+        "y": 736.0139557365687
+      }
+    },
+    {
+      "id": "N-MU9K3PUV0",
+      "title": "男主正确引导陆青禾，承诺会给出能和陆青禾能力匹配的资源",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "陆青禾对男主好感度增加",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9K3B1A1",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 6785.391635672315,
+        "y": 899.0536209026471
+      }
+    },
+    {
+      "id": "N-MU9K5O4O0",
+      "title": "陆青禾尝试在视频里增加不同种类的舞蹈元素，并且教其他人基础舞蹈动作，丰富肢体语言",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9K3PUV0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 7031.596822292644,
+        "y": 809.6714694410408
+      }
+    },
+    {
+      "id": "N-MU9K6K5R0",
+      "title": "苏琪求助",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "缺乏管理经验，苏琪的店彻底开不下去了",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9JXS7Z0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 339.4081968439602,
+        "y": 1237.9797420490984
+      }
+    },
+    {
+      "id": "N-MU9K7IVB0",
+      "title": "苏琪很难过，刚好刷到了男主账号发布的视频",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9K6K5R0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 547.9796254153888,
+        "y": 1383.6940277633842
+      }
+    },
+    {
+      "id": "N-MU9K7ZZJ0",
+      "title": "苏琪居然鬼使神差的联系了男主",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9K7IVB0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 859.4081968439602,
+        "y": 1372.2654563348126
+      }
+    },
+    {
+      "id": "N-MU9K89WM0",
+      "title": "接听电话，苏琪很失落，想问问男主能不能帮帮她",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "这里男主询问苏琪背景\n苏琪说家里其实不管她，父亲有了后妈之后，后妈处处针对自己，出来开店也是因为不想在家里带呆着，而且现在自己失败了，更不能回去被笑话",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9K7ZZJ0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1187.979625415389,
+        "y": 1346.5511706205268
+      }
+    },
+    {
+      "id": "N-MU9K90IV0",
+      "title": "苏琪求助男主帮助",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9K89WM0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1499.4081968439602,
+        "y": 1337.9797420490981
+      }
+    },
+    {
+      "id": "N-MU9KATB90",
+      "title": "男主帮助她",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "解锁苏琪可攻略状态",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9K90IV0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1893.6939111296745,
+        "y": 1180.8368849062408
+      }
+    },
+    {
+      "id": "N-MU9KB7WV1",
+      "title": "拒绝",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "苏琪彻底下线，不再有剧情，无法攻略",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9K90IV0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1773.6939111296747,
+        "y": 1595.1225991919553
+      }
+    },
+    {
+      "id": "N-MU9KBZH20",
+      "title": "男主认为苏琪需要沉淀下来学习一点东西，安排她去叶澄那里一起做手工鞋",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9KATB90",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2216.551053986817,
+        "y": 1189.4083134776695
+      }
+    },
+    {
+      "id": "N-MU9KD6X10",
+      "title": "苏琪同意了",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "之后和苏琪没有强制的主线剧情推进，做一些支线来帮助两人推进关系最终达到攻略苏琪即可",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9KBZH20",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2187.9796254153885,
+        "y": 1406.5511706205266
+      }
     }
   ],
   "edges": [
@@ -4305,6 +6127,896 @@
       "id": "N-MU9HRRLL0__N-MU9HTDBL0",
       "from": "N-MU9HRRLL0",
       "to": "N-MU9HTDBL0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9HTDBL0__N-MU9IH1050",
+      "from": "N-MU9HTDBL0",
+      "to": "N-MU9IH1050",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IH1050__N-MU9IHJMD0",
+      "from": "N-MU9IH1050",
+      "to": "N-MU9IHJMD0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IHJMD0__N-MU9IHTW40",
+      "from": "N-MU9IHJMD0",
+      "to": "N-MU9IHTW40",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IHTW40__N-MU9II46D0",
+      "from": "N-MU9IHTW40",
+      "to": "N-MU9II46D0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9II46D0__N-MU9IJBJ00",
+      "from": "N-MU9II46D0",
+      "to": "N-MU9IJBJ00",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IJBJ00__N-MU9IK42D0",
+      "from": "N-MU9IJBJ00",
+      "to": "N-MU9IK42D0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IK42D0__N-MU9IKHDW0",
+      "from": "N-MU9IK42D0",
+      "to": "N-MU9IKHDW0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IKHDW0__N-MU9IKY0S0",
+      "from": "N-MU9IKHDW0",
+      "to": "N-MU9IKY0S0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IKHDW0__N-MU9ILAWS1",
+      "from": "N-MU9IKHDW0",
+      "to": "N-MU9ILAWS1",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IKY0S0__N-MU9IMIZ10",
+      "from": "N-MU9IKY0S0",
+      "to": "N-MU9IMIZ10",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9ILAWS1__N-MU9IMIZ10",
+      "from": "N-MU9ILAWS1",
+      "to": "N-MU9IMIZ10",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IMIZ10__N-MU9INGBG0",
+      "from": "N-MU9IMIZ10",
+      "to": "N-MU9INGBG0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9INGBG0__N-MU9INUCD0",
+      "from": "N-MU9INGBG0",
+      "to": "N-MU9INUCD0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9INUCD0__N-MU9IO8GS0",
+      "from": "N-MU9INUCD0",
+      "to": "N-MU9IO8GS0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IO8GS0__N-MU9IOJZN0",
+      "from": "N-MU9IO8GS0",
+      "to": "N-MU9IOJZN0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IOJZN0__N-MU9IP51G0",
+      "from": "N-MU9IOJZN0",
+      "to": "N-MU9IP51G0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IP51G0__N-MU9IPFLO0",
+      "from": "N-MU9IP51G0",
+      "to": "N-MU9IPFLO0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IPFLO0__N-MU9IPZB70",
+      "from": "N-MU9IPFLO0",
+      "to": "N-MU9IPZB70",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IPZB70__N-MU9IQEKK0",
+      "from": "N-MU9IPZB70",
+      "to": "N-MU9IQEKK0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IQEKK0__N-MU9IRBJO0",
+      "from": "N-MU9IQEKK0",
+      "to": "N-MU9IRBJO0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IRBJO0__N-MU9ISHE30",
+      "from": "N-MU9IRBJO0",
+      "to": "N-MU9ISHE30",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9ISHE30__N-MU9ITKJG0",
+      "from": "N-MU9ISHE30",
+      "to": "N-MU9ITKJG0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9ITKJG0__N-MU9IUB780",
+      "from": "N-MU9ITKJG0",
+      "to": "N-MU9IUB780",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IUB780__N-MU9IUX9O0",
+      "from": "N-MU9IUB780",
+      "to": "N-MU9IUX9O0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IUX9O0__N-MU9IWET80",
+      "from": "N-MU9IUX9O0",
+      "to": "N-MU9IWET80",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IWET80__N-MU9IXET60",
+      "from": "N-MU9IWET80",
+      "to": "N-MU9IXET60",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IWET80__N-MU9IXUYJ1",
+      "from": "N-MU9IWET80",
+      "to": "N-MU9IXUYJ1",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IXUYJ1__N-MU9IYS900",
+      "from": "N-MU9IXUYJ1",
+      "to": "N-MU9IYS900",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IXUYJ1__N-MU9IZMVF1",
+      "from": "N-MU9IXUYJ1",
+      "to": "N-MU9IZMVF1",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IZMVF1__N-MU9IXET60",
+      "from": "N-MU9IZMVF1",
+      "to": "N-MU9IXET60",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9IXET60__N-MU9J0X9M0",
+      "from": "N-MU9IXET60",
+      "to": "N-MU9J0X9M0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J0X9M0__N-MU9J1K5P0",
+      "from": "N-MU9J0X9M0",
+      "to": "N-MU9J1K5P0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J1K5P0__N-MU9J2BZV0",
+      "from": "N-MU9J1K5P0",
+      "to": "N-MU9J2BZV0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J2BZV0__N-MU9J2MOK0",
+      "from": "N-MU9J2BZV0",
+      "to": "N-MU9J2MOK0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J2MOK0__N-MU9J2YII0",
+      "from": "N-MU9J2MOK0",
+      "to": "N-MU9J2YII0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J2MOK0__N-MU9J33IJ1",
+      "from": "N-MU9J2MOK0",
+      "to": "N-MU9J33IJ1",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J2MOK0__N-MU9J3ARE2",
+      "from": "N-MU9J2MOK0",
+      "to": "N-MU9J3ARE2",
+      "label": "选项C",
+      "choiceId": "C",
+      "createsSubRoute": true,
+      "subRouteId": "opt-C",
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J2MOK0__N-MU9J3TD63",
+      "from": "N-MU9J2MOK0",
+      "to": "N-MU9J3TD63",
+      "label": "陈可欣",
+      "choiceId": "D",
+      "createsSubRoute": true,
+      "subRouteId": "opt-D",
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J2MOK0__N-MU9J46VV4",
+      "from": "N-MU9J2MOK0",
+      "to": "N-MU9J46VV4",
+      "label": "叶澄",
+      "choiceId": "E",
+      "createsSubRoute": true,
+      "subRouteId": "opt-E",
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J2YII0__N-MU9J8IEY0",
+      "from": "N-MU9J2YII0",
+      "to": "N-MU9J8IEY0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J33IJ1__N-MU9J8IEY0",
+      "from": "N-MU9J33IJ1",
+      "to": "N-MU9J8IEY0",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J3ARE2__N-MU9J8IEY0",
+      "from": "N-MU9J3ARE2",
+      "to": "N-MU9J8IEY0",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J3TD63__N-MU9J8IEY0",
+      "from": "N-MU9J3TD63",
+      "to": "N-MU9J8IEY0",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J46VV4__N-MU9J8IEY0",
+      "from": "N-MU9J46VV4",
+      "to": "N-MU9J8IEY0",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J8IEY0__N-MU9J91HM0",
+      "from": "N-MU9J8IEY0",
+      "to": "N-MU9J91HM0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9J91HM0__N-MU9JA5B60",
+      "from": "N-MU9J91HM0",
+      "to": "N-MU9JA5B60",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JA5B60__N-MU9JBOJE0",
+      "from": "N-MU9JA5B60",
+      "to": "N-MU9JBOJE0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JBOJE0__N-MU9JBU1U0",
+      "from": "N-MU9JBOJE0",
+      "to": "N-MU9JBU1U0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JBU1U0__N-MU9JCW1E0",
+      "from": "N-MU9JBU1U0",
+      "to": "N-MU9JCW1E0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JCW1E0__N-MU9JDJXD0",
+      "from": "N-MU9JCW1E0",
+      "to": "N-MU9JDJXD0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JDJXD0__N-MU9JEEQQ0",
+      "from": "N-MU9JDJXD0",
+      "to": "N-MU9JEEQQ0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JDJXD0__N-MU9JGN2P1",
+      "from": "N-MU9JDJXD0",
+      "to": "N-MU9JGN2P1",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JEEQQ0__N-MU9JHIQY0",
+      "from": "N-MU9JEEQQ0",
+      "to": "N-MU9JHIQY0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JHIQY0__N-MU9JIGIH0",
+      "from": "N-MU9JHIQY0",
+      "to": "N-MU9JIGIH0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JIGIH0__N-MU9JIU8Q0",
+      "from": "N-MU9JIGIH0",
+      "to": "N-MU9JIU8Q0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JIU8Q0__N-MU9JJ9FU0",
+      "from": "N-MU9JIU8Q0",
+      "to": "N-MU9JJ9FU0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JJ9FU0__N-MU9JJJU90",
+      "from": "N-MU9JJ9FU0",
+      "to": "N-MU9JJJU90",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JJJU90__N-MU9JK8XK0",
+      "from": "N-MU9JJJU90",
+      "to": "N-MU9JK8XK0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JK8XK0__N-MU9JKIZS0",
+      "from": "N-MU9JK8XK0",
+      "to": "N-MU9JKIZS0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JKIZS0__N-MU9JL60O0",
+      "from": "N-MU9JKIZS0",
+      "to": "N-MU9JL60O0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JL60O0__N-MU9JLZKP0",
+      "from": "N-MU9JL60O0",
+      "to": "N-MU9JLZKP0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JLZKP0__N-MU9JMLYQ0",
+      "from": "N-MU9JLZKP0",
+      "to": "N-MU9JMLYQ0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JMLYQ0__N-MU9JN1BL0",
+      "from": "N-MU9JMLYQ0",
+      "to": "N-MU9JN1BL0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JGN2P1__N-MU9JNLW90",
+      "from": "N-MU9JGN2P1",
+      "to": "N-MU9JNLW90",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JNLW90__N-MU9JP7GF0",
+      "from": "N-MU9JNLW90",
+      "to": "N-MU9JP7GF0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JP7GF0__N-MU9JPL2G0",
+      "from": "N-MU9JP7GF0",
+      "to": "N-MU9JPL2G0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JPL2G0__N-MU9JPVI10",
+      "from": "N-MU9JPL2G0",
+      "to": "N-MU9JPVI10",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JPVI10__N-MU9JQCQP0",
+      "from": "N-MU9JPVI10",
+      "to": "N-MU9JQCQP0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JQCQP0__N-MU9JQOWP0",
+      "from": "N-MU9JQCQP0",
+      "to": "N-MU9JQOWP0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JN1BL0__N-MU9JQOWP0",
+      "from": "N-MU9JN1BL0",
+      "to": "N-MU9JQOWP0",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JQOWP0__N-MU9JRXH50",
+      "from": "N-MU9JQOWP0",
+      "to": "N-MU9JRXH50",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JRXH50__N-MU9JT5HL0",
+      "from": "N-MU9JRXH50",
+      "to": "N-MU9JT5HL0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JT5HL0__N-MU9JTTDB0",
+      "from": "N-MU9JT5HL0",
+      "to": "N-MU9JTTDB0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JTTDB0__N-MU9JUIHR0",
+      "from": "N-MU9JTTDB0",
+      "to": "N-MU9JUIHR0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JUIHR0__N-MU9JUU340",
+      "from": "N-MU9JUIHR0",
+      "to": "N-MU9JUU340",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JUU340__N-MU9JXS7Z0",
+      "from": "N-MU9JUU340",
+      "to": "N-MU9JXS7Z0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JUIHR0__N-MU9K3B1A1",
+      "from": "N-MU9JUIHR0",
+      "to": "N-MU9K3B1A1",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9K3B1A1__N-MU9K3PUV0",
+      "from": "N-MU9K3B1A1",
+      "to": "N-MU9K3PUV0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9K3PUV0__N-MU9K5O4O0",
+      "from": "N-MU9K3PUV0",
+      "to": "N-MU9K5O4O0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9K5O4O0__N-MU9JXS7Z0",
+      "from": "N-MU9K5O4O0",
+      "to": "N-MU9JXS7Z0",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9JXS7Z0__N-MU9K6K5R0",
+      "from": "N-MU9JXS7Z0",
+      "to": "N-MU9K6K5R0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9K6K5R0__N-MU9K7IVB0",
+      "from": "N-MU9K6K5R0",
+      "to": "N-MU9K7IVB0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9K7IVB0__N-MU9K7ZZJ0",
+      "from": "N-MU9K7IVB0",
+      "to": "N-MU9K7ZZJ0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9K7ZZJ0__N-MU9K89WM0",
+      "from": "N-MU9K7ZZJ0",
+      "to": "N-MU9K89WM0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9K89WM0__N-MU9K90IV0",
+      "from": "N-MU9K89WM0",
+      "to": "N-MU9K90IV0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9K90IV0__N-MU9KATB90",
+      "from": "N-MU9K90IV0",
+      "to": "N-MU9KATB90",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9K90IV0__N-MU9KB7WV1",
+      "from": "N-MU9K90IV0",
+      "to": "N-MU9KB7WV1",
+      "label": "拒绝",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9KATB90__N-MU9KBZH20",
+      "from": "N-MU9KATB90",
+      "to": "N-MU9KBZH20",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9KBZH20__N-MU9KD6X10",
+      "from": "N-MU9KBZH20",
+      "to": "N-MU9KD6X10",
       "label": "继续",
       "choiceId": null,
       "createsSubRoute": false,
