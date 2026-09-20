@@ -3,7 +3,7 @@
   "project": "足迹 footgame",
   "chapter": "",
   "title": "空白线路板（手动从零）",
-  "updatedAt": "2026-09-20T14:58:20.168589+08:00",
+  "updatedAt": "2026-09-20T15:04:27.633804+08:00",
   "notes": "2026-09-18 应业主要求新建空白板。\n上一版完整图已存：story_graph.ARCHIVE-before-blank-20260918-143533.json 以及 story_graph.PREVIOUS_WORK.json\n用法提醒：节点=走向/分叉草稿给AI看；类型与文案不钉死。\n2026-09-18 从 Windows 浏览器 Console 导出救回，未丢手改内容。\n2026-09-18 浏览器导出再同步\n2026-09-20：在「许宁看到了这个情况有点打退堂鼓」后接入旧版许宁入驻焦虑四向线（来自 PREVIOUS_WORK），汇合至正式入驻丝语。",
   "tracks": [
     {
@@ -2629,28 +2629,6 @@
         "x": 1441.105432218977,
         "y": -179.00790739685067
       }
-    },
-    {
-      "id": "N-MU9GJBQ60",
-      "title": "新情节",
-      "kind": "beat",
-      "track": "main",
-      "character": null,
-      "summary": "",
-      "prerequisites": [
-        {
-          "type": "node",
-          "id": "N-MU9GHXAT0",
-          "op": "done"
-        }
-      ],
-      "scriptRef": "",
-      "flagsSet": [],
-      "notes": "",
-      "position": {
-        "x": 1741.105432218977,
-        "y": -179.00790739685067
-      }
     }
   ],
   "edges": [
@@ -3928,16 +3906,6 @@
       "id": "N-MU9GGZET0__N-MU9GHXAT0",
       "from": "N-MU9GGZET0",
       "to": "N-MU9GHXAT0",
-      "label": "继续",
-      "choiceId": null,
-      "createsSubRoute": false,
-      "subRouteId": null,
-      "flagsRequired": []
-    },
-    {
-      "id": "N-MU9GHXAT0__N-MU9GJBQ60",
-      "from": "N-MU9GHXAT0",
-      "to": "N-MU9GJBQ60",
       "label": "继续",
       "choiceId": null,
       "createsSubRoute": false,
