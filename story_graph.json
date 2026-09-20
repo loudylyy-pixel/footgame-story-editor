@@ -3,7 +3,7 @@
   "project": "足迹 footgame",
   "chapter": "",
   "title": "空白线路板（手动从零）",
-  "updatedAt": "2026-09-20T15:04:27.633804+08:00",
+  "updatedAt": "2026-09-20T15:28:18.773220+08:00",
   "notes": "2026-09-18 应业主要求新建空白板。\n上一版完整图已存：story_graph.ARCHIVE-before-blank-20260918-143533.json 以及 story_graph.PREVIOUS_WORK.json\n用法提醒：节点=走向/分叉草稿给AI看；类型与文案不钉死。\n2026-09-18 从 Windows 浏览器 Console 导出救回，未丢手改内容。\n2026-09-18 浏览器导出再同步\n2026-09-20：在「许宁看到了这个情况有点打退堂鼓」后接入旧版许宁入驻焦虑四向线（来自 PREVIOUS_WORK），汇合至正式入驻丝语。",
   "tracks": [
     {
@@ -2629,6 +2629,275 @@
         "x": 1441.105432218977,
         "y": -179.00790739685067
       }
+    },
+    {
+      "id": "N-MU9H72CY0",
+      "title": "苏琪在店里找茬，找麻烦",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9GHXAT0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1760.8298286076192,
+        "y": -322.45806295061305
+      }
+    },
+    {
+      "id": "N-MU9HIN9M0",
+      "title": "引入新角色沈妍",
+      "kind": "choice",
+      "track": "main",
+      "character": null,
+      "summary": "沈妍正在店里试鞋，被苏琪打扰到表现有点不悦",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9H72CY0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 1764.963882777984,
+        "y": -168.24914573031853
+      }
+    },
+    {
+      "id": "N-MU9HKDP50",
+      "title": "优先处理沈妍的情绪",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "赢得沈妍的好感\n激怒苏琪但是也引起了苏琪的好奇\n解锁沈妍和苏琪的可攻略开关",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9HIN9M0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2066.757009722406,
+        "y": -376.251871283274
+      }
+    },
+    {
+      "id": "N-MU9HKR6X1",
+      "title": "优先处理苏琪的找茬",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "失去沈妍的好感，导致沈妍无法攻略",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9HIN9M0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2075.7226444445164,
+        "y": -44.662891841474476
+      }
+    },
+    {
+      "id": "N-MU9HM0WP0",
+      "title": "男主对沈妍表达歉意，让服务员带沈妍去休息室单独服务",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9HKDP50",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2382.895152222204,
+        "y": -378.044998227696
+      }
+    },
+    {
+      "id": "N-MU9HMU210",
+      "title": "苏琪质问男主为什么不优先处理自己的情绪",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9HM0WP0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2387.029206392569,
+        "y": -225.62920795182347
+      }
+    },
+    {
+      "id": "N-MU9HNFEV0",
+      "title": "男主把苏琪请到办公室去聊",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9HMU210",
+          "op": "done"
+        },
+        {
+          "type": "node",
+          "id": "N-MU9HKR6X1",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2531.0271622278524,
+        "y": -76.799671564795
+      }
+    },
+    {
+      "id": "N-MU9HODBM0",
+      "title": "苏琪很自然的坐在沙发上，开门见山的告诉男主她的店就开在对面，并且不希望周围500米内有第二家鞋店，让男主自觉关门走人",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9HNFEV0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2657.093848618915,
+        "y": -218.45670017413536
+      }
+    },
+    {
+      "id": "N-MU9HPGRK0",
+      "title": "男主感到好笑，询问苏琪是不是脑子不正常",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9HODBM0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2919.4381827860525,
+        "y": -369.0793635055859
+      }
+    },
+    {
+      "id": "N-MU9HPWYV0",
+      "title": "苏琪感觉到自己被冒犯",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9HPGRK0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 2927.1584908452614,
+        "y": -214.8704462852913
+      }
+    },
+    {
+      "id": "N-MU9HRRLL0",
+      "title": "男主看来苏琪就是一个心智不成熟的人，没有多计较",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "男主不想多纠缠，就告诉苏琪考虑一下，先把苏琪打发走了。",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9HPWYV0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3193.089078901243,
+        "y": -367.28623656116383
+      }
+    },
+    {
+      "id": "N-MU9HTDBL0",
+      "title": "男主继续利用许宁周岚的宣传，以及叶澄的作品，增加店内的热度",
+      "kind": "beat",
+      "track": "main",
+      "character": null,
+      "summary": "",
+      "prerequisites": [
+        {
+          "type": "node",
+          "id": "N-MU9HRRLL0",
+          "op": "done"
+        }
+      ],
+      "scriptRef": "",
+      "flagsSet": [],
+      "notes": "",
+      "position": {
+        "x": 3191.843752238342,
+        "y": -73.21341767595088
+      }
     }
   ],
   "edges": [
@@ -3906,6 +4175,136 @@
       "id": "N-MU9GGZET0__N-MU9GHXAT0",
       "from": "N-MU9GGZET0",
       "to": "N-MU9GHXAT0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9GHXAT0__N-MU9H72CY0",
+      "from": "N-MU9GHXAT0",
+      "to": "N-MU9H72CY0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9H72CY0__N-MU9HIN9M0",
+      "from": "N-MU9H72CY0",
+      "to": "N-MU9HIN9M0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9HIN9M0__N-MU9HKDP50",
+      "from": "N-MU9HIN9M0",
+      "to": "N-MU9HKDP50",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9HIN9M0__N-MU9HKR6X1",
+      "from": "N-MU9HIN9M0",
+      "to": "N-MU9HKR6X1",
+      "label": "选项B",
+      "choiceId": "B",
+      "createsSubRoute": true,
+      "subRouteId": "opt-B",
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9HKDP50__N-MU9HM0WP0",
+      "from": "N-MU9HKDP50",
+      "to": "N-MU9HM0WP0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9HM0WP0__N-MU9HMU210",
+      "from": "N-MU9HM0WP0",
+      "to": "N-MU9HMU210",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9HMU210__N-MU9HNFEV0",
+      "from": "N-MU9HMU210",
+      "to": "N-MU9HNFEV0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9HNFEV0__N-MU9HODBM0",
+      "from": "N-MU9HNFEV0",
+      "to": "N-MU9HODBM0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9HODBM0__N-MU9HPGRK0",
+      "from": "N-MU9HODBM0",
+      "to": "N-MU9HPGRK0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9HPGRK0__N-MU9HPWYV0",
+      "from": "N-MU9HPGRK0",
+      "to": "N-MU9HPWYV0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9HPWYV0__N-MU9HRRLL0",
+      "from": "N-MU9HPWYV0",
+      "to": "N-MU9HRRLL0",
+      "label": "继续",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9HKR6X1__N-MU9HNFEV0",
+      "from": "N-MU9HKR6X1",
+      "to": "N-MU9HNFEV0",
+      "label": "汇合",
+      "choiceId": null,
+      "createsSubRoute": false,
+      "subRouteId": null,
+      "flagsRequired": []
+    },
+    {
+      "id": "N-MU9HRRLL0__N-MU9HTDBL0",
+      "from": "N-MU9HRRLL0",
+      "to": "N-MU9HTDBL0",
       "label": "继续",
       "choiceId": null,
       "createsSubRoute": false,
